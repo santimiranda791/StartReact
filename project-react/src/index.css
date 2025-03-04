@@ -1,0 +1,26 @@
+header{
+    background-color: #2a3d63;
+    min-height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 0 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    
+}
+
+.List {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+ li a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+ } 

@@ -1,7 +1,9 @@
 import React from 'react'
 
-export const ItemNavbar = () => {
+export const ItemNavbar = ({contenido}) => {
   return (
-    <li>Class 1</li>
+    <>
+    <li ><a href="">{contenido}</a></li>
+    </>
   )
 }
